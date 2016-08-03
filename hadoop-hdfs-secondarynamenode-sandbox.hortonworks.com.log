@@ -1,0 +1,139 @@
+************************************************************/
+2016-03-14 14:20:19,546 INFO  namenode.SecondaryNameNode (LogAdapter.java:info(45)) - registered UNIX signal handlers for [TERM, HUP, INT]
+2016-03-14 14:20:20,757 INFO  impl.MetricsConfig (MetricsConfig.java:loadFirst(112)) - loaded properties from hadoop-metrics2.properties
+2016-03-14 14:20:20,873 INFO  impl.MetricsSystemImpl (MetricsSystemImpl.java:startTimer(377)) - Scheduled snapshot period at 60 second(s).
+2016-03-14 14:20:20,873 INFO  impl.MetricsSystemImpl (MetricsSystemImpl.java:start(192)) - SecondaryNameNode metrics system started
+2016-03-14 14:20:21,119 WARN  common.Util (Util.java:stringAsURI(56)) - Path /hadoop/hdfs/namesecondary should be specified as a URI in configuration files. Please update hdfs configuration.
+2016-03-14 14:20:21,120 WARN  common.Util (Util.java:stringAsURI(56)) - Path /hadoop/hdfs/namesecondary should be specified as a URI in configuration files. Please update hdfs configuration.
+2016-03-14 14:20:21,168 WARN  common.Storage (NNStorage.java:setRestoreFailedStorage(210)) - set restore failed storage to true
+2016-03-14 14:20:21,229 INFO  common.Storage (Storage.java:tryLock(715)) - Lock on /hadoop/hdfs/namesecondary/in_use.lock acquired by nodename 30242@sandbox.¶jvqikvffztc¶.com
+2016-03-14 14:20:21,235 INFO  namenode.FSNamesystem (FSNamesystem.java:<init>(723)) - No KeyProvider found.
+2016-03-14 14:20:21,235 INFO  namenode.FSNamesystem (FSNamesystem.java:<init>(729)) - Enabling async auditlog
+2016-03-14 14:20:21,238 INFO  namenode.FSNamesystem (FSNamesystem.java:<init>(733)) - fsLock is fair:false
+2016-03-14 14:20:21,292 INFO  blockmanagement.HeartbeatManager (HeartbeatManager.java:<init>(90)) - Setting heartbeat recheck interval to 30000 since dfs.namenode.stale.datanode.interval is less than dfs.namenode.heartbeat.recheck-interval
+--
+2016-03-14 14:20:21,328 INFO  util.GSet (LightWeightGSet.java:computeCapacity(354)) - Computing capacity for map BlocksMap
+2016-03-14 14:20:21,328 INFO  util.GSet (LightWeightGSet.java:computeCapacity(355)) - VM type       = 64-bit
+2016-03-14 14:20:21,331 INFO  util.GSet (LightWeightGSet.java:computeCapacity(356)) - 2.0% max memory 240 MB = 4.8 MB
+2016-03-14 14:20:21,331 INFO  util.GSet (LightWeightGSet.java:computeCapacity(361)) - capacity      = 2^19 = 524288 entries
+2016-03-14 14:20:21,350 INFO  blockmanagement.BlockManager (BlockManager.java:createBlockTokenSecretManager(375)) - dfs.block.access.token.enable=true
+2016-03-14 14:20:21,350 INFO  blockmanagement.BlockManager (BlockManager.java:createBlockTokenSecretManager(396)) - dfs.block.access.key.update.interval=600 min(s), dfs.block.access.token.lifetime=600 min(s), dfs.encrypt.data.transfer.algorithm=null
+2016-03-14 14:20:21,386 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(361)) - defaultReplication         = 3
+2016-03-14 14:20:21,387 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(362)) - maxReplication             = 50
+2016-03-14 14:20:21,387 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(363)) - minReplication             = 1
+2016-03-14 14:20:21,387 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(364)) - maxReplicationStreams      = 2
+2016-03-14 14:20:21,387 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(365)) - replicationRecheckInterval = 3000
+--
+2016-03-14 14:20:21,689 INFO  mortbay.log (Slf4jLog.java:info(67)) - jetty-6.1.26.hwx
+2016-03-14 14:20:21,988 INFO  mortbay.log (Slf4jLog.java:info(67)) - Started HttpServer2$SelectChannelConnectorWithSafeStartup@sandbox.¶jvqikvffztc¶.com:50090
+2016-03-14 14:20:21,989 INFO  namenode.SecondaryNameNode (SecondaryNameNode.java:initialize(278)) - Web server init done
+2016-03-14 14:20:21,989 INFO  namenode.SecondaryNameNode (SecondaryNameNode.java:initialize(297)) - Checkpoint Period   :21600 secs (360 min)
+2016-03-14 14:20:21,989 INFO  namenode.SecondaryNameNode (SecondaryNameNode.java:initialize(299)) - Log Size Trigger    :1000000 txns
+2016-03-14 14:48:29,193 ERROR namenode.SecondaryNameNode (LogAdapter.java:error(69)) - RECEIVED SIGNAL 15: SIGTERM
+2016-03-14 14:48:29,216 INFO  namenode.SecondaryNameNode (LogAdapter.java:info(45)) - SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down SecondaryNameNode at sandbox.¶jvqikvffztc¶.com/¶109.104.124.127¶
+************************************************************/
+2016-03-14 14:48:35,666 INFO  namenode.SecondaryNameNode (LogAdapter.java:info(45)) - STARTUP_MSG: 
+--
+************************************************************/
+2016-03-14 14:48:35,695 INFO  namenode.SecondaryNameNode (LogAdapter.java:info(45)) - registered UNIX signal handlers for [TERM, HUP, INT]
+2016-03-14 14:48:37,017 INFO  impl.MetricsConfig (MetricsConfig.java:loadFirst(112)) - loaded properties from hadoop-metrics2.properties
+2016-03-14 14:48:37,184 INFO  impl.MetricsSystemImpl (MetricsSystemImpl.java:startTimer(377)) - Scheduled snapshot period at 60 second(s).
+2016-03-14 14:48:37,184 INFO  impl.MetricsSystemImpl (MetricsSystemImpl.java:start(192)) - SecondaryNameNode metrics system started
+2016-03-14 14:48:37,494 WARN  common.Util (Util.java:stringAsURI(56)) - Path /hadoop/hdfs/namesecondary should be specified as a URI in configuration files. Please update hdfs configuration.
+2016-03-14 14:48:37,496 WARN  common.Util (Util.java:stringAsURI(56)) - Path /hadoop/hdfs/namesecondary should be specified as a URI in configuration files. Please update hdfs configuration.
+2016-03-14 14:48:37,565 WARN  common.Storage (NNStorage.java:setRestoreFailedStorage(210)) - set restore failed storage to true
+2016-03-14 14:48:37,644 INFO  common.Storage (Storage.java:tryLock(715)) - Lock on /hadoop/hdfs/namesecondary/in_use.lock acquired by nodename 22941@sandbox.¶jvqikvffztc¶.com
+2016-03-14 14:48:37,652 INFO  namenode.FSNamesystem (FSNamesystem.java:<init>(723)) - No KeyProvider found.
+2016-03-14 14:48:37,652 INFO  namenode.FSNamesystem (FSNamesystem.java:<init>(729)) - Enabling async auditlog
+2016-03-14 14:48:37,656 INFO  namenode.FSNamesystem (FSNamesystem.java:<init>(733)) - fsLock is fair:false
+2016-03-14 14:48:37,721 INFO  blockmanagement.HeartbeatManager (HeartbeatManager.java:<init>(90)) - Setting heartbeat recheck interval to 30000 since dfs.namenode.stale.datanode.interval is less than dfs.namenode.heartbeat.recheck-interval
+--
+2016-03-14 14:48:37,764 INFO  util.GSet (LightWeightGSet.java:computeCapacity(354)) - Computing capacity for map BlocksMap
+2016-03-14 14:48:37,764 INFO  util.GSet (LightWeightGSet.java:computeCapacity(355)) - VM type       = 64-bit
+2016-03-14 14:48:37,768 INFO  util.GSet (LightWeightGSet.java:computeCapacity(356)) - 2.0% max memory 240 MB = 4.8 MB
+2016-03-14 14:48:37,768 INFO  util.GSet (LightWeightGSet.java:computeCapacity(361)) - capacity      = 2^19 = 524288 entries
+2016-03-14 14:48:37,790 INFO  blockmanagement.BlockManager (BlockManager.java:createBlockTokenSecretManager(375)) - dfs.block.access.token.enable=true
+2016-03-14 14:48:37,790 INFO  blockmanagement.BlockManager (BlockManager.java:createBlockTokenSecretManager(396)) - dfs.block.access.key.update.interval=600 min(s), dfs.block.access.token.lifetime=600 min(s), dfs.encrypt.data.transfer.algorithm=null
+2016-03-14 14:48:37,833 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(361)) - defaultReplication         = 3
+2016-03-14 14:48:37,834 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(362)) - maxReplication             = 50
+2016-03-14 14:48:37,834 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(363)) - minReplication             = 1
+2016-03-14 14:48:37,834 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(364)) - maxReplicationStreams      = 2
+2016-03-14 14:48:37,834 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(365)) - replicationRecheckInterval = 3000
+--
+2016-03-14 14:48:38,227 INFO  mortbay.log (Slf4jLog.java:info(67)) - jetty-6.1.26.hwx
+2016-03-14 14:48:38,532 INFO  mortbay.log (Slf4jLog.java:info(67)) - Started HttpServer2$SelectChannelConnectorWithSafeStartup@sandbox.¶jvqikvffztc¶.com:50090
+2016-03-14 14:48:38,532 INFO  namenode.SecondaryNameNode (SecondaryNameNode.java:initialize(278)) - Web server init done
+2016-03-14 14:48:38,532 INFO  namenode.SecondaryNameNode (SecondaryNameNode.java:initialize(297)) - Checkpoint Period   :21600 secs (360 min)
+2016-03-14 14:48:38,532 INFO  namenode.SecondaryNameNode (SecondaryNameNode.java:initialize(299)) - Log Size Trigger    :1000000 txns
+2016-03-14 14:59:31,967 ERROR namenode.SecondaryNameNode (LogAdapter.java:error(69)) - RECEIVED SIGNAL 15: SIGTERM
+2016-03-14 14:59:31,980 INFO  namenode.SecondaryNameNode (LogAdapter.java:info(45)) - SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down SecondaryNameNode at sandbox.¶jvqikvffztc¶.com/¶109.104.124.127¶
+************************************************************/
+2016-03-14 14:59:38,531 INFO  namenode.SecondaryNameNode (LogAdapter.java:info(45)) - STARTUP_MSG: 
+--
+************************************************************/
+2016-03-14 14:59:38,551 INFO  namenode.SecondaryNameNode (LogAdapter.java:info(45)) - registered UNIX signal handlers for [TERM, HUP, INT]
+2016-03-14 14:59:39,839 INFO  impl.MetricsConfig (MetricsConfig.java:loadFirst(112)) - loaded properties from hadoop-metrics2.properties
+2016-03-14 14:59:39,979 INFO  impl.MetricsSystemImpl (MetricsSystemImpl.java:startTimer(377)) - Scheduled snapshot period at 60 second(s).
+2016-03-14 14:59:39,979 INFO  impl.MetricsSystemImpl (MetricsSystemImpl.java:start(192)) - SecondaryNameNode metrics system started
+2016-03-14 14:59:40,292 WARN  common.Util (Util.java:stringAsURI(56)) - Path /hadoop/hdfs/namesecondary should be specified as a URI in configuration files. Please update hdfs configuration.
+2016-03-14 14:59:40,293 WARN  common.Util (Util.java:stringAsURI(56)) - Path /hadoop/hdfs/namesecondary should be specified as a URI in configuration files. Please update hdfs configuration.
+2016-03-14 14:59:40,350 WARN  common.Storage (NNStorage.java:setRestoreFailedStorage(210)) - set restore failed storage to true
+2016-03-14 14:59:40,431 INFO  common.Storage (Storage.java:tryLock(715)) - Lock on /hadoop/hdfs/namesecondary/in_use.lock acquired by nodename 4345@sandbox.¶jvqikvffztc¶.com
+2016-03-14 14:59:40,441 INFO  namenode.FSNamesystem (FSNamesystem.java:<init>(723)) - No KeyProvider found.
+2016-03-14 14:59:40,441 INFO  namenode.FSNamesystem (FSNamesystem.java:<init>(729)) - Enabling async auditlog
+2016-03-14 14:59:40,445 INFO  namenode.FSNamesystem (FSNamesystem.java:<init>(733)) - fsLock is fair:false
+2016-03-14 14:59:40,507 INFO  blockmanagement.HeartbeatManager (HeartbeatManager.java:<init>(90)) - Setting heartbeat recheck interval to 30000 since dfs.namenode.stale.datanode.interval is less than dfs.namenode.heartbeat.recheck-interval
+--
+2016-03-14 14:59:40,549 INFO  util.GSet (LightWeightGSet.java:computeCapacity(354)) - Computing capacity for map BlocksMap
+2016-03-14 14:59:40,550 INFO  util.GSet (LightWeightGSet.java:computeCapacity(355)) - VM type       = 64-bit
+2016-03-14 14:59:40,553 INFO  util.GSet (LightWeightGSet.java:computeCapacity(356)) - 2.0% max memory 240 MB = 4.8 MB
+2016-03-14 14:59:40,553 INFO  util.GSet (LightWeightGSet.java:computeCapacity(361)) - capacity      = 2^19 = 524288 entries
+2016-03-14 14:59:40,575 INFO  blockmanagement.BlockManager (BlockManager.java:createBlockTokenSecretManager(375)) - dfs.block.access.token.enable=true
+2016-03-14 14:59:40,576 INFO  blockmanagement.BlockManager (BlockManager.java:createBlockTokenSecretManager(396)) - dfs.block.access.key.update.interval=600 min(s), dfs.block.access.token.lifetime=600 min(s), dfs.encrypt.data.transfer.algorithm=null
+2016-03-14 14:59:40,620 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(361)) - defaultReplication         = 3
+2016-03-14 14:59:40,620 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(362)) - maxReplication             = 50
+2016-03-14 14:59:40,620 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(363)) - minReplication             = 1
+2016-03-14 14:59:40,620 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(364)) - maxReplicationStreams      = 2
+2016-03-14 14:59:40,620 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(365)) - replicationRecheckInterval = 3000
+--
+2016-03-14 14:59:41,023 INFO  mortbay.log (Slf4jLog.java:info(67)) - jetty-6.1.26.hwx
+2016-03-14 14:59:41,340 INFO  mortbay.log (Slf4jLog.java:info(67)) - Started HttpServer2$SelectChannelConnectorWithSafeStartup@sandbox.¶jvqikvffztc¶.com:50090
+2016-03-14 14:59:41,340 INFO  namenode.SecondaryNameNode (SecondaryNameNode.java:initialize(278)) - Web server init done
+2016-03-14 14:59:41,340 INFO  namenode.SecondaryNameNode (SecondaryNameNode.java:initialize(297)) - Checkpoint Period   :21600 secs (360 min)
+2016-03-14 14:59:41,340 INFO  namenode.SecondaryNameNode (SecondaryNameNode.java:initialize(299)) - Log Size Trigger    :1000000 txns
+2016-03-14 15:03:50,818 ERROR namenode.SecondaryNameNode (LogAdapter.java:error(69)) - RECEIVED SIGNAL 15: SIGTERM
+2016-03-14 15:03:50,840 INFO  namenode.SecondaryNameNode (LogAdapter.java:info(45)) - SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down SecondaryNameNode at sandbox.¶jvqikvffztc¶.com/¶109.104.124.127¶
+************************************************************/
+2016-07-15 09:42:06,148 INFO  namenode.SecondaryNameNode (LogAdapter.java:info(45)) - STARTUP_MSG: 
+--
+************************************************************/
+2016-07-15 09:42:06,879 INFO  namenode.SecondaryNameNode (LogAdapter.java:info(45)) - registered UNIX signal handlers for [TERM, HUP, INT]
+2016-07-15 09:42:41,298 INFO  impl.MetricsConfig (MetricsConfig.java:loadFirst(112)) - loaded properties from hadoop-metrics2.properties
+2016-07-15 09:42:44,545 INFO  impl.MetricsSystemImpl (MetricsSystemImpl.java:startTimer(377)) - Scheduled snapshot period at 60 second(s).
+2016-07-15 09:42:44,546 INFO  impl.MetricsSystemImpl (MetricsSystemImpl.java:start(192)) - SecondaryNameNode metrics system started
+2016-07-15 09:42:55,229 WARN  common.Util (Util.java:stringAsURI(56)) - Path /hadoop/hdfs/namesecondary should be specified as a URI in configuration files. Please update hdfs configuration.
+2016-07-15 09:42:55,229 WARN  common.Util (Util.java:stringAsURI(56)) - Path /hadoop/hdfs/namesecondary should be specified as a URI in configuration files. Please update hdfs configuration.
+2016-07-15 09:42:57,369 WARN  common.Storage (NNStorage.java:setRestoreFailedStorage(210)) - set restore failed storage to true
+2016-07-15 09:43:02,232 INFO  common.Storage (Storage.java:tryLock(715)) - Lock on /hadoop/hdfs/namesecondary/in_use.lock acquired by nodename 10408@sandbox.¶jvqikvffztc¶.com
+2016-07-15 09:43:02,295 INFO  namenode.FSNamesystem (FSNamesystem.java:<init>(723)) - No KeyProvider found.
+2016-07-15 09:43:02,295 INFO  namenode.FSNamesystem (FSNamesystem.java:<init>(729)) - Enabling async auditlog
+2016-07-15 09:43:02,441 INFO  namenode.FSNamesystem (FSNamesystem.java:<init>(733)) - fsLock is fair:false
+2016-07-15 09:43:05,542 INFO  blockmanagement.HeartbeatManager (HeartbeatManager.java:<init>(90)) - Setting heartbeat recheck interval to 30000 since dfs.namenode.stale.datanode.interval is less than dfs.namenode.heartbeat.recheck-interval
+--
+2016-07-15 09:43:08,050 INFO  util.GSet (LightWeightGSet.java:computeCapacity(354)) - Computing capacity for map BlocksMap
+2016-07-15 09:43:08,051 INFO  util.GSet (LightWeightGSet.java:computeCapacity(355)) - VM type       = 64-bit
+2016-07-15 09:43:08,815 INFO  util.GSet (LightWeightGSet.java:computeCapacity(356)) - 2.0% max memory 240 MB = 4.8 MB
+2016-07-15 09:43:08,815 INFO  util.GSet (LightWeightGSet.java:computeCapacity(361)) - capacity      = 2^19 = 524288 entries
+2016-07-15 09:43:09,078 INFO  blockmanagement.BlockManager (BlockManager.java:createBlockTokenSecretManager(375)) - dfs.block.access.token.enable=true
+2016-07-15 09:43:09,078 INFO  blockmanagement.BlockManager (BlockManager.java:createBlockTokenSecretManager(396)) - dfs.block.access.key.update.interval=600 min(s), dfs.block.access.token.lifetime=600 min(s), dfs.encrypt.data.transfer.algorithm=null
+2016-07-15 09:43:11,807 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(361)) - defaultReplication         = 3
+2016-07-15 09:43:11,807 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(362)) - maxReplication             = 50
+2016-07-15 09:43:11,807 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(363)) - minReplication             = 1
+2016-07-15 09:43:11,807 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(364)) - maxReplicationStreams      = 2
+2016-07-15 09:43:11,807 INFO  blockmanagement.BlockManager (BlockManager.java:<init>(365)) - replicationRecheckInterval = 3000
